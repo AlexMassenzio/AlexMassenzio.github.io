@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=“utf-8” />
+        <title>Alex Massenzio</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script>
+            <!----- Script Provided by 1stwebdesigner.com ---->
+            <!----- JQUERY FOR SLIDING NAVIGATION --->   
+                $(document).ready(function() {
+                    $('a[href*=#]').each(function() {
+                        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+                            && location.hostname == this.hostname
+                            && this.hash.replace(/#/,'') ) {
+                            var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+                            var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+                            if ($target) {
+                                var targetOffset = $target.offset().top;
+
+                                <!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
+                                $(this).click(function() {
+                                    $("#nav li a").removeClass("active");
+                                    $(this).addClass('active');
+                                    $('html, body').animate({scrollTop: targetOffset}, 1000);
+                                    return false;
+                                });
+                            }
+                        }
+                    });
+                });
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>Alex Massenzio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#slide1" class="active">Top</a></li>
+                    <li><a href="#slide2">About Me</a></li>
+                    <li><a href="#slide3">Activities</a></li>
+                    <li><a href="#slide4">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="slide1">
+            <h2>Top text</h2>
+        </section>
+        <section id="slide2">
+            <h3>I am a sdudent, volunteer, and a hoopla</h3>
+        </section>
+        <section id="slide3">
+            <h3>I do yoyo, and other cool stuff</h3>
+        </section>
+        <section id="slide4">
+            <h3>Feel free to email me at alexmassenzio@gmail.com</h3>
+            <h2>OR</h2>
+            <h3>You can find me at these websites:</h3>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/alexmassenzio"><img src="img/In-2C-128px-TM.png"></a></li>
+                <li><a href="https://www.google.com/+AlexMassenzio"><img src="img/g+128.png"></a></li>
+            </ul>
+        </section>
+        
+        <footer>
+            <h4>&copy; Alex Massenzio 2015</h4>
+        </footer>
+    </body>
+</html>
