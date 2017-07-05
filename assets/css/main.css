@@ -77,6 +77,19 @@
 		margin-bottom: 0;
 	}
 
+	#project-left {
+		float: left;
+		margin: 0 1.5%;
+		width: 45%	
+	}
+
+	#project-right {
+		float: right;
+		margin: 0 1.5%;
+		width: 45%;
+		vertical-align: middle;
+	}
+
 	#project-role {
 		text-align: center;
 		font-size: 1em;
@@ -85,6 +98,11 @@
 
 	#project-desc {
 		text-align: center;
+		vertical-align: middle;
+	}
+
+	#project-footer {
+		clear: both;
 	}
 
 /* Containers */
