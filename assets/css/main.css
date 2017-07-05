@@ -56,6 +56,37 @@
 		box-sizing: border-box;
 	}
 
+/* Extra Def */
+	#year-container {
+		background-color: #cccac9;
+		border-radius: 10px;
+		margin:-1em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	#year-header {
+		text-align: center;
+		font-size: 2em;
+		margin-bottom: 0.6em;
+	}
+
+	#project-header {
+		text-align: center;
+		font-size: 1.6em;
+		margin-bottom: 0;
+	}
+
+	#project-role {
+		text-align: center;
+		font-size: 1em;
+		margin-bottom: 0;
+	}
+
+	#project-desc {
+		text-align: center;
+	}
+
 /* Containers */
 
 	.container {
