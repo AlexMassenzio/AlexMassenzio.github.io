@@ -40,7 +40,7 @@ const controls = new OrbitControls(camera, renderer.domElement);
 //Define Tween
 const tween1 = new TWEEN.Tween({z:0})
   .to({z:18}, 5000)
-  .delay(1000)
+  .delay(250)
   .easing(TWEEN.Easing.Cubic.InOut);
 
 const tween2 = new TWEEN.Tween({d:0})
