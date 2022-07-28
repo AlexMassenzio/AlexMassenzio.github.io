@@ -1,19 +1,25 @@
 {
   "name": "alexmassenzio-github-io",
   "private": true,
-  "version": "0.0.0",
+  "version": "2.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "serve": "npm run build && npm run preview"
+    "deploy": "npm run build && npm run preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
-    "@types/node": "^17.0.21",
-    "vite": "^2.8.0"
-  },
-  "dependencies": {
-    "@tweenjs/tween.js": "^18.6.4",
-    "three": "^0.138.0"
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "@tsconfig/svelte": "^3.0.0",
+    "bulma": "^0.9.4",
+    "sass": "^1.54.0",
+    "svelte": "^3.49.0",
+    "svelte-check": "^2.8.0",
+    "svelte-preprocess": "^4.10.7",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0"
   }
 }
