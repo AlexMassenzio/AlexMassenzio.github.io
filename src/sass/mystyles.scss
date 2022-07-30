@@ -1,8 +1,11 @@
 @charset "utf-8";
 @import "/node_modules/bulma/sass/helpers/color.sass";
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
 // Add custom scss here
 $navbar-height:5rem; // Double navbar height
+$family-primary: 'Kanit', sans-serif;
+
 
 // Import only what you need from Bulma
 @import "/node_modules/bulma/bulma.sass";
