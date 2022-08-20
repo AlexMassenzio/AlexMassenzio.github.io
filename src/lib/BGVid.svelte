@@ -1,5 +1,5 @@
 <video class="bgvid" autoplay={true} loop={true} muted={true}>
-    <source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4">
+    <!-- <source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4"> -->
 </video>
 
 <style>

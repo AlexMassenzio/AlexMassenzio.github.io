@@ -48,10 +48,6 @@
             background-color: rgba($color: #070707, $alpha: 0.4);
         }
     }
-
-    .navbar-start {
-        //padding-left: 2rem;
-    }
     
     .navbar-item {
         padding-left: 2rem;

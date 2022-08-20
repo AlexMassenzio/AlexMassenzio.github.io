@@ -6,50 +6,49 @@ import Home from './lib/Home.svelte';
 import Navbar from "./lib/Navbar.svelte";
 import Projects from './lib/Projects.svelte';
 
-let navLoc:string;
+let hash : string = window.location.hash;
+
+let navLocation : string = hash.substring(1);
+console.log(navLocation);
 const ANIMATION_DURATION = 250;
 </script>
 
-<Navbar bind:navLoc={navLoc}/>
+<Navbar bind:navLoc={navLocation}/>
 
-{#if navLoc == "home"}
+{#if navLocation == "home"}
   <div in:fly="{{x:400, duration: ANIMATION_DURATION, delay:ANIMATION_DURATION}}" out:fly="{{x:ANIMATION_DURATION, duration: ANIMATION_DURATION}}">
     <Home/>
   </div>
-{:else if navLoc == "projects"}
+{:else if navLocation == "projects"}
   <div in:fly="{{x:400, duration: ANIMATION_DURATION, delay:ANIMATION_DURATION}}" out:fly="{{x:ANIMATION_DURATION, duration: ANIMATION_DURATION}}">
     <Projects/>
   </div>
-{:else if navLoc == "contact"}
+{:else if navLocation == "contact"}
   <div in:fly="{{x:400, duration: ANIMATION_DURATION, delay:ANIMATION_DURATION}}" out:fly="{{x:ANIMATION_DURATION, duration: ANIMATION_DURATION}}">
     <Contact/>
   </div>
 {/if}
 
-<!-- <div class="columns p-contain" transition:fly="{{delay: 250, duration: 300, x: 100, y: 500, opacity: 0.5}}">
-    <div class="column">
-      First column
-    </div>
-    <div class="column">
-      Second column
-    </div>
-    <div class="column">
-      Third column
-    </div>
-</div>
-
-<button class="button">{navLoc}</button> -->
-
 <BGVid/>
 
-<!-- <style>
-    .p-contain {
-        width: 300%;
+<footer class="footer">
+  <div class="content has-text-centered">
+    <h3 class="title is-3">
+      Made by Alex Massenzio
+    </h3>
+    <h4 class="title is-4">Made with:</h4>
+
+    <a href="https://svelte.dev/" target="_blank" rel="noopener noreferrer">
+      <img src="https://raw.githubusercontent.com/sveltejs/branding/c4dfca6743572087a6aef0e109ffe3d95596e86a/svelte-horizontal.svg" alt="Made with Bulma" class="badge"/>
+    </a>
+    <a href="https://bulma.io/" target="_blank" rel="noopener noreferrer">
+      <img src="https://bulma.io/assets/Bulma%20Logo.svg" alt="Made with Bulma" class="badge"/>
+    </a>
+  </div>
+</footer>
+
+<style>
+    .badge {
+      width: 192px;
     }
-    .column {
-        background-color: aqua;
-        border-color: brown;
-        border-style:dashed;
-        border-width: 10px;
-    }
-</style> -->
+</style>
