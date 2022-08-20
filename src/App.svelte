@@ -6,10 +6,11 @@ import Home from './lib/Home.svelte';
 import Navbar from "./lib/Navbar.svelte";
 import Projects from './lib/Projects.svelte';
 
-let hash : string = window.location.hash;
+if(window.location.hash == "") {
+  window.location.hash = "home";
+}
 
-let navLocation : string = hash.substring(1);
-console.log(navLocation);
+let navLocation : string = window.location.hash.substring(1);
 const ANIMATION_DURATION = 250;
 </script>
 

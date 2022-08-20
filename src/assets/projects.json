@@ -36,7 +36,7 @@
             {
                 "project": "BansPage",
                 "role": "Co-Founder",
-                "media": "/img/banspage.png",
+                "media": "public/banspage.png",
                 "description": "The Bans Page was designed as an answer to the heated debate surrounding Super Smash Bros. Ultimate's tournament-legal stagelist. The website was designed to allow anyone to create and share custom stagelists. Since its launch, it has become a tool that is widely used by tournament organizers across the competitive scene to post their official tournament rulesets.",
                 "footer": {
                     "text": "Come visit the website at : ",
@@ -54,7 +54,7 @@
             {
                 "project": "Intrepid Musem Exhibitions",
                 "role": "Programmer, Audio/Video Integrator",
-                "media": "/img/Sonar.JPG",
+                "media": "public/Sonar.jpg",
                 "description": "I was a major contributor in the creation of two interactive exhibitions for the Intrepid Museum in New York City. The first exhibit displayed and simulated the sounds of the interior of a Growler Submarine at the Intrepid Museum, and the second exhibit was an interactive console in which users can guess underwater sounds. My responsibility was to program the user interface and the backend code that required me to integrate my code with 8 channel audio, multiple displays, and touch controls.",
                 "footer": {
                     "text": "You can visit them at the Growler submarine pavillion: ",
@@ -80,7 +80,6 @@
             {
                 "project": "Altotude",
                 "role": "Creator",
-                "media": "https://img.itch.zone/aW1hZ2UvMjczMjUyLzEzMjIxNzguanBn/original/6iHbzD.jpg",
                 "description": "An experiment that allows to control the enviorment with your microphone. Use your pitch to move around the ball!",
                 "footer": {
                     "text": "Download the game here: ",
