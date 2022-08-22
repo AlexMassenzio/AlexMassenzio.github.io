@@ -1,5 +1,5 @@
 <script lang="ts">
-    export let navLoc : string = "home";
+    export let navLoc: string = "home";
 
     document.addEventListener('DOMContentLoaded', () => {
 
