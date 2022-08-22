@@ -6,6 +6,10 @@
 $navbar-height:5rem; // Double navbar height
 $family-primary: 'Kanit', sans-serif;
 
-
 // Import only what you need from Bulma
 @import "/node_modules/bulma/bulma.sass";
+
+// Other global css
+#app {
+    background-color: gray;
+}

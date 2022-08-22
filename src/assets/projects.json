@@ -36,7 +36,7 @@
             {
                 "project": "BansPage",
                 "role": "Co-Founder",
-                "media": "public/banspage.png",
+                "media": "/banspage.png",
                 "description": "The Bans Page was designed as an answer to the heated debate surrounding Super Smash Bros. Ultimate's tournament-legal stagelist. The website was designed to allow anyone to create and share custom stagelists. Since its launch, it has become a tool that is widely used by tournament organizers across the competitive scene to post their official tournament rulesets.",
                 "footer": {
                     "text": "Come visit the website at : ",
@@ -54,7 +54,7 @@
             {
                 "project": "Intrepid Musem Exhibitions",
                 "role": "Programmer, Audio/Video Integrator",
-                "media": "public/Sonar.jpg",
+                "media": "/Sonar.jpg",
                 "description": "I was a major contributor in the creation of two interactive exhibitions for the Intrepid Museum in New York City. The first exhibit displayed and simulated the sounds of the interior of a Growler Submarine at the Intrepid Museum, and the second exhibit was an interactive console in which users can guess underwater sounds. My responsibility was to program the user interface and the backend code that required me to integrate my code with 8 channel audio, multiple displays, and touch controls.",
                 "footer": {
                     "text": "You can visit them at the Growler submarine pavillion: ",
@@ -142,6 +142,120 @@
                     "link": {
                         "title": "YouTube",
                         "url": "https://youtu.be/3lVhU3V50gs"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "year": "2016",
+        "projects": [
+            {
+                "project": "Audio Tour of Hoboken",
+                "role": "Programmer",
+                "media": "https://gfycat.com/ifr/AbsoluteForkedBlueandgoldmackaw",
+                "description": "Recording samples were taken from various parts of Hoboken, NJ. Audio was mapped by location to a midi controller called a Launchpad. Audio mapping was achieved using SuperCollider, and midi lighting was made possible through the Launchpad.py library.",
+                "footer": {
+                    "text": "Watch the demonstration here: ",
+                    "link": {
+                        "title": "YouTube",
+                        "url": "https://youtu.be/Pqw1Fj6YOdE"
+                    }
+                }
+            },
+            {
+                "project": "Tangent",
+                "role": "Creator",
+                "media": "https://gfycat.com/ifr/WellmadeSlimyAmericancicada",
+                "description": "Currently in development! 2D Unity game originally created for SGDC's Game Jam X and GitHub's Game-Off 2016!",
+                "footer": {
+                    "text": "Play the GitHub Game-Off submission here: [OLD: 0.1.0]: ",
+                    "link": {
+                        "title": "Signups",
+                        "url": "./Tangent/index.html"
+                    }
+                }
+            },
+            {
+                "project": "RedBot",
+                "role": "Lead Developer / Creator",
+                "description": "RedBot is a open source project with the goal to create an easy to manage Discord bot bundled with an array of useful commands.",
+                "footer": {
+                    "text": "The link to the GitHub repository can be found here: ",
+                    "link": {
+                        "title": "Github",
+                        "url": "https://github.com/AlexMassenzio/RedBot"
+                    }
+                }
+            },
+            {
+                "project": "Pakij",
+                "role": "Visual Effects & Sound Design",
+                "media": "https://gfycat.com/ifr/DefenselessGrippingChicken",
+                "description": "Pakij is a game where you (a rejected package) try to escape the factory that seems to be created to soley crush you. The game snagged 1st place in the Stevens Game Development Club's Game Jam IX.",
+                "footer": {
+                    "text": "Download and play here! ",
+                    "link": {
+                        "title": "Pakij",
+                        "url": "https://tehpilot.itch.io/pakij"
+                    }
+                }
+            },
+            {
+                "project": "Stevens Overwatch League",
+                "role": "Head Organizer / Founder",
+                "description": "With two season ran, the Stevens Overwatch League is an on-campus eSports league dedicated to getting more gamers on campus to team up and face each other in a fun, but competitive format. Each season pulls in around 50 Stevens students.",
+                "footer": {
+                    "text": "Season 2 Playoffs: ",
+                    "link": {
+                        "title": "Challonge",
+                        "url": "http://c2gs.challonge.com/sol2"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "year": "2015",
+        "projects": [
+            {
+                "project": "Project HiWay",
+                "role": "Creator",
+                "description": "Project HiWay was a project I started to explore the VR Rhythm Game genre. The game won 3rd place in the Stevens Game Development Club's Game Jam VII",
+                "footer": {
+                    "text": "Get the game here: ",
+                    "link": {
+                        "title": "itch.io",
+                        "url": "https://alexmassenzio.itch.io/project-hiway"
+                    }
+                }
+            },
+            {
+                "project": "alexmassenzio.com",
+                "role": "Creator",
+                "description": "Created this website to showcase projects I have done over time!",
+                "footer": {
+                    "text": "You're already here, so here's a empty hyperlink to click on!:",
+                    "link": {
+                        "title": "Click me!",
+                        "url": ""
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "year": "2014",
+        "projects": [
+            {
+                "project": "GravBall",
+                "role": "Creator",
+                "description": "My very first game I have designed from the ground up! It somehow managed to get 2nd place in a small game jam on-campus.",
+                "footer": {
+                    "text": "Download and play here!: ",
+                    "link": {
+                        "title": "GravBall",
+                        "url": "./GravBall.zip"
                     }
                 }
             }

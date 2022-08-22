@@ -5,6 +5,7 @@ import Contact from './lib/Contact.svelte';
 import Home from './lib/Home.svelte';
 import Navbar from "./lib/Navbar.svelte";
 import Projects from './lib/Projects.svelte';
+import ScrollToTop from './lib/ScrollToTop.svelte';
 
 if(window.location.hash == "") {
   window.location.hash = "home";
@@ -30,6 +31,8 @@ const ANIMATION_DURATION = 250;
   </div>
 {/if}
 
+<ScrollToTop/>
+
 <BGVid/>
 
 <footer class="footer">
@@ -49,7 +52,7 @@ const ANIMATION_DURATION = 250;
 </footer>
 
 <style>
-    .badge {
-      width: 192px;
-    }
+  .badge {
+    width: 192px;
+  }
 </style>

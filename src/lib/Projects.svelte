@@ -12,7 +12,7 @@
                             <div class="column {project.media ? "is-two-thirds" : "is-full"}">
                                 <h2 class="title is-2">{project.project}</h2>
                                 <p class="subtitle is-4">{project.description}</p>
-                                <p>{project.footer.text}<a href={project.footer.link.url} target="_blank" rel="noopener noreferrer">{project.footer.link.title}</a></p>
+                                <p class="bottomTextLine">{project.footer.text}<a href={project.footer.link.url} target="_blank" rel="noopener noreferrer">{project.footer.link.title}</a></p>
                             </div>
                             {#if project.media}    
                                 <div class="column">
@@ -33,3 +33,14 @@
         </div>
     {/each}
 </div>
+
+<style lang="scss">
+    .container {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .bottomTextLine {
+        padding-bottom: 1em;
+    }
+</style>
