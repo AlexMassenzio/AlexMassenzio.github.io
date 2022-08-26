@@ -13,3 +13,9 @@ $family-primary: 'Kanit', sans-serif;
 #app {
     background-color: gray;
 }
+
+.page-container {
+    @extend .container;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}

@@ -2,7 +2,7 @@
     import projectData from '../assets/projects.json';
 </script>
 
-<div class="container">
+<article class="page-container">
     {#each projectData as year}
         <div class="box">
             <section class="section">
@@ -12,7 +12,7 @@
                             <div class="column {project.media ? "is-two-thirds" : "is-full"}">
                                 <h2 class="title is-2">{project.project}</h2>
                                 <p class="subtitle is-4">{project.description}</p>
-                                <p class="bottomTextLine">{project.footer.text}<a href={project.footer.link.url} target="_blank" rel="noopener noreferrer">{project.footer.link.title}</a></p>
+                                <p class="bottom-text-line">{project.footer.text}<a href={project.footer.link.url} target="_blank" rel="noopener noreferrer">{project.footer.link.title}</a></p>
                             </div>
                             {#if project.media}    
                                 <div class="column">
@@ -32,15 +32,10 @@
             </section>
         </div>
     {/each}
-</div>
+</article>
 
 <style lang="scss">
-    .container {
-        padding-top: 2em;
-        padding-bottom: 2em;
-    }
-
-    .bottomTextLine {
+    .bottom-text-line {
         padding-bottom: 1em;
     }
 </style>

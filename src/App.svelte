@@ -1,11 +1,11 @@
 <script lang="ts">
 import { fly } from 'svelte/transition'
-import BGVid from "./lib/BGVid.svelte";
+import BGVid from "./lib/components/BGVid.svelte";
 import Contact from './lib/Contact.svelte';
 import Home from './lib/Home.svelte';
-import Navbar from "./lib/Navbar.svelte";
+import Navbar from "./lib/components/Navbar.svelte";
 import Projects from './lib/Projects.svelte';
-import ScrollToTop from './lib/ScrollToTop.svelte';
+import ScrollToTop from './lib/components/ScrollToTop.svelte';
 
 if(window.location.hash == "") {
   window.location.hash = "home";
@@ -18,15 +18,15 @@ const ANIMATION_DURATION = 250;
 <Navbar bind:navLoc={navLocation}/>
 
 {#if navLocation == "home"}
-  <div in:fly="{{x:400, duration: ANIMATION_DURATION, delay:ANIMATION_DURATION}}" out:fly="{{x:ANIMATION_DURATION, duration: ANIMATION_DURATION}}">
+  <div in:fly="{{x:400, duration: ANIMATION_DURATION, delay:ANIMATION_DURATION}}" out:fly="{{x:-400, duration: ANIMATION_DURATION}}">
     <Home/>
   </div>
 {:else if navLocation == "projects"}
-  <div in:fly="{{x:400, duration: ANIMATION_DURATION, delay:ANIMATION_DURATION}}" out:fly="{{x:ANIMATION_DURATION, duration: ANIMATION_DURATION}}">
+  <div in:fly="{{x:400, duration: ANIMATION_DURATION, delay:ANIMATION_DURATION}}" out:fly="{{x:-400, duration: ANIMATION_DURATION}}">
     <Projects/>
   </div>
 {:else if navLocation == "contact"}
-  <div in:fly="{{x:400, duration: ANIMATION_DURATION, delay:ANIMATION_DURATION}}" out:fly="{{x:ANIMATION_DURATION, duration: ANIMATION_DURATION}}">
+  <div in:fly="{{x:400, duration: ANIMATION_DURATION, delay:ANIMATION_DURATION}}" out:fly="{{x:-400, duration: ANIMATION_DURATION}}">
     <Contact/>
   </div>
 {/if}
