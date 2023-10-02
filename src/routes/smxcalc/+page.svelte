@@ -1,10 +1,21 @@
 <script lang="ts">
-	import type { PageData } from './$types';
+	import { browser } from '$app/environment';
 
-	export let data: PageData;
+	let difficulty = 19;
+	let score = 100000;
+	if (browser) {
+		difficulty = +(window.localStorage.getItem('difficulty') ?? difficulty);
+		score = +(window.localStorage.getItem('score') ?? score);
+	}
 
 	let rankingPoints: number;
-	$: rankingPoints = Math.floor((data.score * Math.pow(data.difficulty, 2)) / 1000);
+	$: {
+		rankingPoints = Math.floor((+score * Math.pow(+difficulty, 2)) / 1000);
+		if (browser) {
+			window.localStorage.setItem('difficulty', difficulty.toString());
+			window.localStorage.setItem('score', score.toString());
+		}
+	}
 </script>
 
 <div class="h-screen flex flex-col items-center justify-center">
@@ -16,7 +27,7 @@
 			<input
 				type="number"
 				class="w-10 text-monochrome-100 dark:text-monochrome-900"
-				bind:value={data.difficulty}
+				bind:value={difficulty}
 			/>
 		</label>
 
@@ -25,7 +36,7 @@
 			<input
 				type="number"
 				class="w-20 text-monochrome-100 dark:text-monochrome-900"
-				bind:value={data.score}
+				bind:value={score}
 			/>
 		</label>
 	</div>
