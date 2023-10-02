@@ -11,7 +11,7 @@
 	let rankingPoints: number;
 	$: {
 		rankingPoints = Math.floor((+score * Math.pow(+difficulty, 2)) / 1000);
-		if (browser) {
+		if (browser && difficulty && score) {
 			window.localStorage.setItem('difficulty', difficulty.toString());
 			window.localStorage.setItem('score', score.toString());
 		}
