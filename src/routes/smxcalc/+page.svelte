@@ -18,7 +18,7 @@
 	}
 </script>
 
-<div class="h-screen flex flex-col items-center justify-center">
+<div class="h-[100dvh] flex flex-col items-center justify-center">
 	<h1 class="text-2xl">SMX Ranking Points Calculator</h1>
 
 	<div class="mt-3 flex flex-row justify-center">
