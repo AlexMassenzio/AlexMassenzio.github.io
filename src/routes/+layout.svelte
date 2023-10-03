@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="bg-monochrome-100 dark:bg-monochrome-900 min-h-screen text-monochrome-900 dark:text-monochrome-100 font-body"
+	class="bg-monochrome-100 dark:bg-monochrome-900 text-monochrome-900 dark:text-monochrome-100 font-body"
 >
 	<slot />
 </div>

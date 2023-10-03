@@ -18,6 +18,12 @@
 	}
 </script>
 
+<svelte:head>
+	<title>SMX Calc</title>
+	<link rel="icon" href="/smx.jpg" />
+	<meta name="description" content="Find out your score's ranking points!" />
+</svelte:head>
+
 <div class="h-[100dvh] flex flex-col items-center justify-center">
 	<h1 class="text-2xl">SMX Ranking Points Calculator</h1>
 
