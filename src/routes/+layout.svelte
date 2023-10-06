@@ -10,6 +10,10 @@
 		<slot />
 	</main>
 	<footer class="absolute bottom-0 w-full text-center">
-		<p>© Alex Massenzio 2016-{now.getFullYear()}</p>
+		<div class="flex gap-x-2 justify-center">
+			<a href="/" class="text-info-500 dark:text-info-400 underline">Home</a>
+			<p>© Alex Massenzio 2016-{now.getFullYear()}</p>
+			<a href="http://alexmassenzio.com/" class="text-info-500 dark:text-info-400 underline">Old</a>
+		</div>
 	</footer>
 </div>

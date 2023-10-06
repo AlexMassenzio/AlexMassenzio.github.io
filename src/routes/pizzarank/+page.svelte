@@ -5,9 +5,9 @@
 </script>
 
 <div class="pt-8 mx-2">
-	<h1 class="text-center text-2xl">Alex's Hoboken Pizza Ranking</h1>
+	<h1 class="text-center text-xl sm:text-2xl">Alex's Hoboken Pizza Ranking</h1>
 	<table
-		class="mt-4 w-fit m-auto table-auto text-lg text-left border-collapse border-2 border-monochrome-900 dark:border-monochrome-100"
+		class="mt-4 w-fit m-auto table-auto text-sm sm:text-lg text-left border-collapse border-2 border-monochrome-900 dark:border-monochrome-100"
 	>
 		<thead>
 			<tr>
