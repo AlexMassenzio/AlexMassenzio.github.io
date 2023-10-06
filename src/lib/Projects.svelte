@@ -1,5 +1,5 @@
 <script lang="ts">
-	import projectData from '../assets/projects.json';
+	import projectData from '$lib/data/projects.json';
 </script>
 
 <article class="page-container">
