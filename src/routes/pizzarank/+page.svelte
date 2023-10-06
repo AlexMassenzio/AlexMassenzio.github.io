@@ -4,7 +4,7 @@
 	export let data: PageData;
 </script>
 
-<div class="pt-8">
+<div class="pt-8 mx-2">
 	<h1 class="text-center text-2xl">Alex's Hoboken Pizza Ranking</h1>
 	<table
 		class="mt-4 w-fit m-auto table-auto text-lg text-left border-collapse border-2 border-monochrome-900 dark:border-monochrome-100"
@@ -19,8 +19,13 @@
 		</thead>
 		<tbody>
 			{#each data.pizza as pizzaPlace, i}
-				<tr class={i + 1 == 1 ? 'dark:text-primary-300' : ''}>
-					<td class="p-2 border border-monochrome-900 dark:border-monochrome-100">{i + 1}</td>
+				<tr
+					class={(i + 1 == 1 ? 'dark:text-primary-300' : '') +
+						(pizzaPlace.goto == 'TBD' ? 'dark:text-monochrome-500 italic' : '')}
+				>
+					<td class="p-2 border border-monochrome-900 dark:border-monochrome-100"
+						>{pizzaPlace.goto == 'TBD' ? 'TBD' : i + 1}</td
+					>
 					<td class="p-2 border border-monochrome-900 dark:border-monochrome-100"
 						>{pizzaPlace.name}</td
 					>

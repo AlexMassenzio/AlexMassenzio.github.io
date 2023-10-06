@@ -58,6 +58,7 @@ export default {
 			},
 			monochrome: {
 				100: '#fdfffe',
+				500: '#aaaaaa',
 				900: '#1c1e29'
 			}
 		},
