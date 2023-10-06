@@ -1,4 +1,5 @@
-<h1 class="text-monochrome-900 dark:text-monochrome-100">Welcome to SvelteKit</h1>
-<p class="text-monochrome-900 dark:text-monochrome-100">
-	Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
-</p>
+<h1 class="pt-4 text-3xl text-center">Links</h1>
+<div class="mt-4 h-full flex flex-col text-center">
+	<a class="text-info-500 dark:text-info-400 underline" href="/smxcalc">SMX Calc</a>
+	<a class="text-info-500 dark:text-info-400 underline" href="/pizzarank">Hoboken Pizza Rankings</a>
+</div>
