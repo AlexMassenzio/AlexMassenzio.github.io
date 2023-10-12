@@ -1,5 +1,10 @@
 [
 	{
+		"name": "The Pizza Shop by Flour",
+		"goto": "Classic Pie",
+		"link": "https://maps.app.goo.gl/WfKwC1DsAbpJGYCe8"
+	},
+	{
 		"name": "Tenth Street Pasta & Pizza",
 		"goto": "Classic Pie",
 		"link": "https://maps.app.goo.gl/oCyd3Cv6hLCs8GFY8"
@@ -10,19 +15,14 @@
 		"link": "https://maps.app.goo.gl/u77scLZfirKfCMTH7"
 	},
 	{
-		"name": "The Pizza Shop by Flour",
-		"goto": "Classic Pie",
-		"link": "https://maps.app.goo.gl/WfKwC1DsAbpJGYCe8"
-	},
-	{
 		"name": "Dozzino",
 		"goto": "La Roma (Sopressata)",
 		"link": "https://maps.app.goo.gl/q3Rn7HssYgedu5p18"
 	},
 	{
-		"name": "Tony Boloney's",
-		"goto": "ANY Specialty Pie",
-		"link": "https://maps.app.goo.gl/r39pR9ikepeXyrTJ6"
+		"name": "Artichoke Basille's Pizza",
+		"goto": "Artichoke Slice",
+		"link": "https://maps.app.goo.gl/NJCp6ChQAGjhXQU66"
 	},
 	{
 		"name": "Quality Pizza Co.",
@@ -45,6 +45,11 @@
 		"link": "https://maps.app.goo.gl/fDhrXSLpEKrQudDt8"
 	},
 	{
+		"name": "Tony Boloney's",
+		"goto": "ANY Specialty Pie",
+		"link": "https://maps.app.goo.gl/r39pR9ikepeXyrTJ6"
+	},
+	{
 		"name": "Pizza Republic",
 		"goto": "Grandma Slice",
 		"link": "https://maps.app.goo.gl/xErDUgqpw5pzr7SJA"
@@ -65,19 +70,14 @@
 		"link": "https://maps.app.goo.gl/ameePNMJrPzinASb9"
 	},
 	{
-		"name": "Artichoke Basille's Pizza",
-		"goto": "TBD",
-		"link": "https://maps.app.goo.gl/NJCp6ChQAGjhXQU66"
+		"name": "Imposto's Pizza",
+		"goto": "Cheese Slice",
+		"link": "https://maps.app.goo.gl/GcRM9EkSBs6imX3i6"
 	},
 	{
 		"name": "Grimaldi's Pizzeria",
 		"goto": "TBD",
 		"link": "https://maps.app.goo.gl/hmqBfzvZkWV6YEPi6"
-	},
-	{
-		"name": "Imposto's Pizza",
-		"goto": "TBD",
-		"link": "https://maps.app.goo.gl/GcRM9EkSBs6imX3i6"
 	},
 	{
 		"name": "Old Lorenzos Pizza",
