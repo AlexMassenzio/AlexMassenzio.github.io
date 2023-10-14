@@ -75,6 +75,11 @@
 		"link": "https://maps.app.goo.gl/GcRM9EkSBs6imX3i6"
 	},
 	{
+		"name": "Pizzeria Hoboken",
+		"goto": "Chicken Bacon Ranch",
+		"link": "https://maps.app.goo.gl/JH4ToRoWfRCZx4xRA"
+	},
+	{
 		"name": "Grimaldi's Pizzeria",
 		"goto": "TBD",
 		"link": "https://maps.app.goo.gl/hmqBfzvZkWV6YEPi6"
@@ -88,11 +93,6 @@
 		"name": "Panello",
 		"goto": "TBD",
 		"link": "https://maps.app.goo.gl/x6nW6v2EV14FFEs18"
-	},
-	{
-		"name": "Pizzeria Hoboken",
-		"goto": "TBD",
-		"link": "https://maps.app.goo.gl/JH4ToRoWfRCZx4xRA"
 	},
 	{
 		"name": "San Giuseppe",
