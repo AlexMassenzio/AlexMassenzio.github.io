@@ -65,6 +65,11 @@
 		"link": "https://maps.app.goo.gl/2FsEQLt1WFKdTXEJ7"
 	},
 	{
+		"name": "Uptown Pizzeria",
+		"goto": "Sicilian",
+		"link": "https://maps.app.goo.gl/WwcqDRbFGVq3hps4A"
+	},
+	{
 		"name": "H&S Giovanni's Restaurant & Pizzeria",
 		"goto": "Any Chicken Slice",
 		"link": "https://maps.app.goo.gl/ameePNMJrPzinASb9"
@@ -103,10 +108,5 @@
 		"name": "Rosario's at Willow",
 		"goto": "TBD",
 		"link": "https://maps.app.goo.gl/yTuEsNtg7SPeVE449"
-	},
-	{
-		"name": "Uptown Pizzeria",
-		"goto": "TBD",
-		"link": "https://maps.app.goo.gl/WwcqDRbFGVq3hps4A"
 	}
 ]
