@@ -50,6 +50,11 @@
 		"link": "https://maps.app.goo.gl/r39pR9ikepeXyrTJ6"
 	},
 	{
+		"name": "Rosario's at Willow",
+		"goto": "Cheese Slice",
+		"link": "https://maps.app.goo.gl/yTuEsNtg7SPeVE449"
+	},
+	{
 		"name": "Pizza Republic",
 		"goto": "Grandma Slice",
 		"link": "https://maps.app.goo.gl/xErDUgqpw5pzr7SJA"
@@ -103,10 +108,5 @@
 		"name": "San Giuseppe",
 		"goto": "TBD",
 		"link": "https://maps.app.goo.gl/DMnVmpTA24xfYA8R8"
-	},
-	{
-		"name": "Rosario's at Willow",
-		"goto": "TBD",
-		"link": "https://maps.app.goo.gl/yTuEsNtg7SPeVE449"
 	}
 ]
