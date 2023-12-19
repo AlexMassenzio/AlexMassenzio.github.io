@@ -70,6 +70,11 @@
 		"link": "https://maps.app.goo.gl/2FsEQLt1WFKdTXEJ7"
 	},
 	{
+		"name": "Alessio's Cafe",
+		"goto": "BBQ Chicken",
+		"link": "https://maps.app.goo.gl/Kd2S88FrfEmQpBKbA"
+	},
+	{
 		"name": "Uptown Pizzeria",
 		"goto": "Sicilian",
 		"link": "https://maps.app.goo.gl/WwcqDRbFGVq3hps4A"
