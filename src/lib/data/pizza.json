@@ -40,6 +40,11 @@
 		"link": "https://maps.app.goo.gl/SrJt8YpKqszDcNuM9"
 	},
 	{
+		"name": "Panello",
+		"goto": "Margherita",
+		"link": "https://maps.app.goo.gl/x6nW6v2EV14FFEs18"
+	},
+	{
 		"name": "Torna Pizzeria",
 		"goto": "Sicilian w/ The Sauce",
 		"link": "https://maps.app.goo.gl/fDhrXSLpEKrQudDt8"
@@ -103,11 +108,6 @@
 		"name": "Old Lorenzos Pizza",
 		"goto": "TBD",
 		"link": "https://maps.app.goo.gl/3AWzN4h8p4g5FXvn9"
-	},
-	{
-		"name": "Panello",
-		"goto": "TBD",
-		"link": "https://maps.app.goo.gl/x6nW6v2EV14FFEs18"
 	},
 	{
 		"name": "San Giuseppe",
