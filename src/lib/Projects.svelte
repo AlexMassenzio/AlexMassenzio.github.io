@@ -22,21 +22,8 @@
 						</p>
 					</div>
 					{#if project.media}
-						<div class="mt-2 sm:mt-0 sm:ml-[5%]">
-							{#if project.media.includes('gfycat')}
-								<div style="position:relative; padding-bottom:calc(56.25% + 44px)">
-									<iframe
-										title="gfycat"
-										src={project.media}
-										frameborder="0"
-										scrolling="no"
-										width="100%"
-										height="100%"
-										style="position:absolute;top:0;left:0;"
-										allowfullscreen
-									/>
-								</div>
-							{:else}
+						<div class="mt-2 sm:mt-0 sm:ml-[25%]">
+							{#if !project.media.includes('gfycat')}
 								<figure>
 									<img
 										src={project.media}
