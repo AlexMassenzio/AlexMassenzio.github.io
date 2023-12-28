@@ -35,6 +35,11 @@
 		"link": "https://maps.app.goo.gl/GhkRcfLUhhWHzMsT6"
 	},
 	{
+		"name": "The Brick",
+		"goto": "Cheese Slice",
+		"link": "https://maps.app.goo.gl/8CAeXCaerhH4H4DLA"
+	},
+	{
 		"name": "Basile's Pizza",
 		"goto": "Cheese Slice",
 		"link": "https://maps.app.goo.gl/SrJt8YpKqszDcNuM9"
@@ -113,10 +118,5 @@
 		"name": "San Giuseppe",
 		"goto": "TBD",
 		"link": "https://maps.app.goo.gl/DMnVmpTA24xfYA8R8"
-	},
-	{
-		"name": "The Brick",
-		"goto": "TBD",
-		"link": "https://maps.app.goo.gl/8CAeXCaerhH4H4DLA"
 	}
 ]
