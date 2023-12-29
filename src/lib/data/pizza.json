@@ -10,6 +10,16 @@
 		"link": "https://maps.app.goo.gl/oCyd3Cv6hLCs8GFY8"
 	},
 	{
+		"name": "Grimaldi's Pizzeria",
+		"goto": "Margherita",
+		"link": "https://maps.app.goo.gl/hmqBfzvZkWV6YEPi6"
+	},
+	{
+		"name": "Artichoke Basille's Pizza",
+		"goto": "Artichoke Slice",
+		"link": "https://maps.app.goo.gl/NJCp6ChQAGjhXQU66"
+	},
+	{
 		"name": "Napoli's Pizza",
 		"goto": "Classic or Vodka",
 		"link": "https://maps.app.goo.gl/u77scLZfirKfCMTH7"
@@ -18,11 +28,6 @@
 		"name": "Dozzino",
 		"goto": "La Roma (Sopressata)",
 		"link": "https://maps.app.goo.gl/q3Rn7HssYgedu5p18"
-	},
-	{
-		"name": "Artichoke Basille's Pizza",
-		"goto": "Artichoke Slice",
-		"link": "https://maps.app.goo.gl/NJCp6ChQAGjhXQU66"
 	},
 	{
 		"name": "Quality Pizza Co.",
@@ -110,9 +115,9 @@
 		"link": "https://maps.app.goo.gl/JH4ToRoWfRCZx4xRA"
 	},
 	{
-		"name": "Grimaldi's Pizzeria",
+		"name": "Apulia",
 		"goto": "TBD",
-		"link": "https://maps.app.goo.gl/hmqBfzvZkWV6YEPi6"
+		"link": "https://maps.app.goo.gl/hwjJKnNqBinjjCVT9"
 	},
 	{
 		"name": "San Giuseppe",
