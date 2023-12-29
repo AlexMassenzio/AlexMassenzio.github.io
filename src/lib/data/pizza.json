@@ -1,0 +1,127 @@
+[
+	{
+		"name": "The Pizza Shop by Flour",
+		"goto": "Classic Pie",
+		"link": "https://maps.app.goo.gl/WfKwC1DsAbpJGYCe8"
+	},
+	{
+		"name": "Tenth Street Pasta & Pizza",
+		"goto": "Classic Pie",
+		"link": "https://maps.app.goo.gl/oCyd3Cv6hLCs8GFY8"
+	},
+	{
+		"name": "Grimaldi's Pizzeria",
+		"goto": "Margherita",
+		"link": "https://maps.app.goo.gl/hmqBfzvZkWV6YEPi6"
+	},
+	{
+		"name": "Artichoke Basille's Pizza",
+		"goto": "Artichoke Slice",
+		"link": "https://maps.app.goo.gl/NJCp6ChQAGjhXQU66"
+	},
+	{
+		"name": "Napoli's Pizza",
+		"goto": "Classic or Vodka",
+		"link": "https://maps.app.goo.gl/u77scLZfirKfCMTH7"
+	},
+	{
+		"name": "Dozzino",
+		"goto": "La Roma (Sopressata)",
+		"link": "https://maps.app.goo.gl/q3Rn7HssYgedu5p18"
+	},
+	{
+		"name": "Quality Pizza Co.",
+		"goto": "Chicken Bacon Ranch",
+		"link": "https://maps.app.goo.gl/Pd9f8RseHz5MEJQb6"
+	},
+	{
+		"name": "Hot House Pizza",
+		"goto": "Sicilian",
+		"link": "https://maps.app.goo.gl/GhkRcfLUhhWHzMsT6"
+	},
+	{
+		"name": "The Brick",
+		"goto": "Cheese Slice",
+		"link": "https://maps.app.goo.gl/8CAeXCaerhH4H4DLA"
+	},
+	{
+		"name": "Basile's Pizza",
+		"goto": "Cheese Slice",
+		"link": "https://maps.app.goo.gl/SrJt8YpKqszDcNuM9"
+	},
+	{
+		"name": "Panello",
+		"goto": "Margherita",
+		"link": "https://maps.app.goo.gl/x6nW6v2EV14FFEs18"
+	},
+	{
+		"name": "Torna Pizzeria",
+		"goto": "Sicilian w/ The Sauce",
+		"link": "https://maps.app.goo.gl/fDhrXSLpEKrQudDt8"
+	},
+	{
+		"name": "Tony Boloney's",
+		"goto": "ANY Specialty Pie",
+		"link": "https://maps.app.goo.gl/r39pR9ikepeXyrTJ6"
+	},
+	{
+		"name": "Rosario's at Willow",
+		"goto": "Cheese Slice",
+		"link": "https://maps.app.goo.gl/yTuEsNtg7SPeVE449"
+	},
+	{
+		"name": "Pizza Republic",
+		"goto": "Grandma Slice",
+		"link": "https://maps.app.goo.gl/xErDUgqpw5pzr7SJA"
+	},
+	{
+		"name": "Mario's Classic Pizza",
+		"goto": "Sicilian",
+		"link": "https://maps.app.goo.gl/uNz5qJS4YsWtKceR8"
+	},
+	{
+		"name": "Benny Tudino's",
+		"goto": "Cheese Slice",
+		"link": "https://maps.app.goo.gl/2FsEQLt1WFKdTXEJ7"
+	},
+	{
+		"name": "Old Lorenzos Pizza",
+		"goto": "Meat Lover's",
+		"link": "https://maps.app.goo.gl/3AWzN4h8p4g5FXvn9"
+	},
+	{
+		"name": "Alessio's Cafe",
+		"goto": "BBQ Chicken",
+		"link": "https://maps.app.goo.gl/Kd2S88FrfEmQpBKbA"
+	},
+	{
+		"name": "Uptown Pizzeria",
+		"goto": "Sicilian",
+		"link": "https://maps.app.goo.gl/WwcqDRbFGVq3hps4A"
+	},
+	{
+		"name": "H&S Giovanni's Restaurant & Pizzeria",
+		"goto": "Any Chicken Slice",
+		"link": "https://maps.app.goo.gl/ameePNMJrPzinASb9"
+	},
+	{
+		"name": "Imposto's Pizza",
+		"goto": "Cheese Slice",
+		"link": "https://maps.app.goo.gl/GcRM9EkSBs6imX3i6"
+	},
+	{
+		"name": "Pizzeria Hoboken",
+		"goto": "Chicken Bacon Ranch",
+		"link": "https://maps.app.goo.gl/JH4ToRoWfRCZx4xRA"
+	},
+	{
+		"name": "Apulia",
+		"goto": "TBD",
+		"link": "https://maps.app.goo.gl/hwjJKnNqBinjjCVT9"
+	},
+	{
+		"name": "San Giuseppe",
+		"goto": "TBD",
+		"link": "https://maps.app.goo.gl/DMnVmpTA24xfYA8R8"
+	}
+]
