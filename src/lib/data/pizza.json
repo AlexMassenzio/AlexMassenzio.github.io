@@ -65,6 +65,11 @@
 		"link": "https://maps.app.goo.gl/fDhrXSLpEKrQudDt8"
 	},
 	{
+		"name": "Apulia",
+		"goto": "Cacio E Jesse",
+		"link": "https://maps.app.goo.gl/hwjJKnNqBinjjCVT9"
+	},
+	{
 		"name": "Tony Boloney's",
 		"goto": "ANY Specialty Pie",
 		"link": "https://maps.app.goo.gl/r39pR9ikepeXyrTJ6"
@@ -118,10 +123,5 @@
 		"name": "Pizzeria Hoboken",
 		"goto": "Chicken Bacon Ranch",
 		"link": "https://maps.app.goo.gl/JH4ToRoWfRCZx4xRA"
-	},
-	{
-		"name": "Apulia",
-		"goto": "TBD",
-		"link": "https://maps.app.goo.gl/hwjJKnNqBinjjCVT9"
 	}
 ]
