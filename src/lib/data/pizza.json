@@ -30,9 +30,9 @@
 		"link": "https://maps.app.goo.gl/q3Rn7HssYgedu5p18"
 	},
 	{
-		"name": "Quality Pizza Co.",
-		"goto": "Chicken Bacon Ranch",
-		"link": "https://maps.app.goo.gl/Pd9f8RseHz5MEJQb6"
+		"name": "Basile's Pizza",
+		"goto": "Margherita Slice",
+		"link": "https://maps.app.goo.gl/SrJt8YpKqszDcNuM9"
 	},
 	{
 		"name": "Hot House Pizza",
@@ -50,14 +50,14 @@
 		"link": "https://maps.app.goo.gl/DMnVmpTA24xfYA8R8"
 	},
 	{
-		"name": "Basile's Pizza",
-		"goto": "Cheese Slice",
-		"link": "https://maps.app.goo.gl/SrJt8YpKqszDcNuM9"
-	},
-	{
 		"name": "Panello",
 		"goto": "Margherita",
 		"link": "https://maps.app.goo.gl/x6nW6v2EV14FFEs18"
+	},
+	{
+		"name": "Quality Pizza Co.",
+		"goto": "Chicken Bacon Ranch",
+		"link": "https://maps.app.goo.gl/Pd9f8RseHz5MEJQb6"
 	},
 	{
 		"name": "Torna Pizzeria",
