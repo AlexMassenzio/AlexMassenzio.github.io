@@ -2,14 +2,14 @@
 	import projectData from '$lib/data/projects.json';
 </script>
 
-<article class="m-8">
+<article class="m-8 mb-0">
 	{#each projectData as year}
 		<section>
 			<h1 class="text-3xl text-center mb-4">{year.year}</h1>
 			<div class="flex flex-col items-center w-full gap-4 md:gap-6 mb-8">
 				{#each year.projects as project}
 					<div
-						class="border border-monochrome-500 md:w-1/2 bg-monochrome-800 h-fit rounded-xl flex flex-col p-2"
+						class="border-2 border-monochrome-500 md:w-1/2 bg-monochrome-800 h-fit rounded-xl flex flex-col p-2"
 					>
 						{#if project.media}
 							{#if !project.media.includes('gfycat')}
