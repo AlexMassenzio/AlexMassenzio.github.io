@@ -6,7 +6,6 @@
 
 	inject({ mode: dev ? 'development' : 'production' });
 	let now = new Date();
-	console.log($page.url.pathname);
 </script>
 
 <div
