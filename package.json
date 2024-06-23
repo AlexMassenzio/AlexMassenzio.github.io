@@ -11,7 +11,8 @@
 		"format": "prettier --plugin-search-dir . --write .",
 		"flint": "pnpm format && pnpm lint",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"test:unit": "vitest"
+		"test": "vitest run",
+		"test:watch": "vitest"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.1.1",
@@ -31,10 +32,11 @@
 		"tslib": "^2.6.2",
 		"typescript": "^5.4.4",
 		"vite": "^4.5.3",
-		"vitest": "^0.25.8"
+		"vitest": "^1.6.0"
 	},
 	"type": "module",
 	"dependencies": {
+		"@iconify/svelte": "^4.0.2",
 		"@vercel/analytics": "^1.2.2"
 	}
 }
