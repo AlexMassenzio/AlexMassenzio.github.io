@@ -2,7 +2,6 @@
 	import '../app.css';
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
-	import { page } from '$app/stores';
 
 	inject({ mode: dev ? 'development' : 'production' });
 	let now = new Date();
@@ -14,11 +13,9 @@
 	<main class="flex items-center justify-center flex-col flex-grow">
 		<slot />
 	</main>
-	{#if $page.url.pathname != '/'}
-		<footer class="py-3 w-full text-center">
-			<div class="text-center">
-				<p>Copyright © 2016-{now.getFullYear()} Alex Massenzio</p>
-			</div>
-		</footer>
-	{/if}
+	<footer class="py-3 w-full text-center">
+		<div class="text-center">
+			<p>Copyright © 2016-{now.getFullYear()} Alex Massenzio</p>
+		</div>
+	</footer>
 </div>

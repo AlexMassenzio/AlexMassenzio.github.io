@@ -1,5 +1,6 @@
 <script lang="ts">
 	import projectData from '$lib/data/projects.json';
+	import Link from './components/Link.svelte';
 </script>
 
 <article class="m-8 mb-0">
@@ -24,24 +25,24 @@
 						{/if}
 						<div class="grid grid-cols-3 items-end mb-2">
 							<h2 class="col-span-2 text-2xl">{project.project}</h2>
-							<a
+							<Link
 								href={project.footer.link.url}
 								target="_blank"
 								rel="noopener noreferrer"
-								class="text-info-500 dark:text-info-400 text-xl decoration-1 underline truncate text-end"
+								class="text-xl truncate text-end"
 								>{project.footer.link.title}
-							</a>
+							</Link>
 						</div>
 						<p class="mb-2">{project.description}</p>
 						<p>
 							{project.footer.text}
-							<a
+							<Link
 								href={project.footer.link.url}
 								target="_blank"
 								rel="noopener noreferrer"
-								class="text-info-500 dark:text-info-400 decoration-1 underline truncate text-end"
+								class="truncate text-end"
 								>{project.footer.link.title}
-							</a>
+							</Link>
 						</p>
 					</div>
 				{/each}

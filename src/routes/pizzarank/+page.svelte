@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Link from '$lib/components/Link.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -41,9 +42,9 @@
 					>
 					<td
 						class="p-2 border {i == data.pizza.length - 1 ? 'rounded-br-lg' : ''}
-							 border-monochrome-600 dark:border-monochrome-500 text-info-400"
+							 border-monochrome-600 dark:border-monochrome-500"
 					>
-						<a href={pizzaPlace.link} target="_blank">Link</a>
+						<Link href={pizzaPlace.link}>Link</Link>
 					</td>
 				</tr>
 			{/each}
