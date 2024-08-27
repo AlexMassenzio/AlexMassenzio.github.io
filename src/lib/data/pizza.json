@@ -1,13 +1,13 @@
 [
 	{
-		"name": "The Pizza Shop by Flour",
-		"goto": "Classic Pie",
-		"link": "https://maps.app.goo.gl/WfKwC1DsAbpJGYCe8"
-	},
-	{
 		"name": "Tenth Street Pasta & Pizza",
 		"goto": "Classic Pie",
 		"link": "https://maps.app.goo.gl/oCyd3Cv6hLCs8GFY8"
+	},
+	{
+		"name": "The Pizza Shop by Flour",
+		"goto": "Classic Pie",
+		"link": "https://maps.app.goo.gl/WfKwC1DsAbpJGYCe8"
 	},
 	{
 		"name": "Grimaldi's Pizzeria",
@@ -55,11 +55,6 @@
 		"link": "https://maps.app.goo.gl/x6nW6v2EV14FFEs18"
 	},
 	{
-		"name": "Quality Pizza Co.",
-		"goto": "Chicken Bacon Ranch",
-		"link": "https://maps.app.goo.gl/Pd9f8RseHz5MEJQb6"
-	},
-	{
 		"name": "Torna Pizzeria",
 		"goto": "Sicilian w/ The Sauce",
 		"link": "https://maps.app.goo.gl/fDhrXSLpEKrQudDt8"
@@ -70,19 +65,24 @@
 		"link": "https://maps.app.goo.gl/hwjJKnNqBinjjCVT9"
 	},
 	{
+		"name": "Pizza Republic",
+		"goto": "Grandma Slice",
+		"link": "https://maps.app.goo.gl/xErDUgqpw5pzr7SJA"
+	},
+	{
 		"name": "Tony Boloney's",
 		"goto": "ANY Specialty Pie",
 		"link": "https://maps.app.goo.gl/r39pR9ikepeXyrTJ6"
 	},
 	{
+		"name": "Quality Pizza Co.",
+		"goto": "Chicken Bacon Ranch",
+		"link": "https://maps.app.goo.gl/Pd9f8RseHz5MEJQb6"
+	},
+	{
 		"name": "Rosario's at Willow",
 		"goto": "Cheese Slice",
 		"link": "https://maps.app.goo.gl/yTuEsNtg7SPeVE449"
-	},
-	{
-		"name": "Pizza Republic",
-		"goto": "Grandma Slice",
-		"link": "https://maps.app.goo.gl/xErDUgqpw5pzr7SJA"
 	},
 	{
 		"name": "Mario's Classic Pizza",
