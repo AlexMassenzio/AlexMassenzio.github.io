@@ -144,8 +144,7 @@ export const projects: ProjectsInYear[] = [
 			{
 				name: 'Engineer Arena',
 				role: 'Technical Lead',
-				media:
-					'https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1118950/header.jpg?t=1565798542',
+				media: '/engineerarena.png',
 				description:
 					'Upgrade on the fly and come out of the arena on top in this frantic split-screen arena shooter!',
 				footer: {
