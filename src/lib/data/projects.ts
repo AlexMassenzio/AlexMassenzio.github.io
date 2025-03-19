@@ -3,7 +3,7 @@ type ProjectsInYear = {
 	projects: Project[];
 };
 
-type Project = {
+export type Project = {
 	name: string;
 	role: string;
 	media?: string;
@@ -15,12 +15,112 @@ type Project = {
 			url: string;
 		};
 	};
+	priority: number;
 };
 
-const projects: ProjectsInYear[] = [
+export const projects: ProjectsInYear[] = [
+	{
+		year: 2025,
+		projects: [
+			{
+				name: 'Twin Pulse',
+				role: 'Sole Developer',
+				description: 'A highly performant, competitive rhythm game built from scratch in C#.',
+				footer: {
+					info: 'More info coming soon!',
+					link: {
+						title: '',
+						url: ''
+					}
+				},
+				priority: 1
+			},
+			{
+				name: 'Fully Automatic Remote Tournament',
+				role: 'WebUI Developer',
+				description:
+					'A standings viewer for StepmaniaX online tournaments. F.A.R.T (Fully Automatic Remote Tournament) runs gauntlet style events for the SMX community with minimal human intervention needed.',
+				footer: {
+					info: 'Check out the website!: ',
+					link: {
+						title: 'Website',
+						url: 'https://fart-webui.vercel.app/'
+					}
+				},
+				priority: 1
+			}
+		]
+	},
+	{
+		year: 2024,
+		projects: [
+			{
+				name: 'toverlay',
+				role: 'Sole Developer',
+				description: 'A custom tournament manager tool for OBS.',
+				footer: {
+					info: 'Check out the Github repo here: ',
+					link: {
+						title: 'GitHub',
+						url: 'https://github.com/AlexMassenzio/toverlay'
+					}
+				},
+				priority: -1
+			}
+		]
+	},
+	{
+		year: 2023,
+		projects: [
+			{
+				name: "Mr. Puffles' Day Out",
+				role: 'Gameplay Systems / Audio Integrator',
+				media: 'https://img.itch.zone/aW1hZ2UvMjE1NTUyNy8xMjcxNDk1NS5wbmc=/original/tgAQLi.png',
+				description:
+					'A walk in the park. Ranked 180th out of 6,700+ entries in the 2023 GMTK Game Jam.',
+				footer: {
+					info: 'Play the game jam submission here!: ',
+					link: {
+						title: 'Play',
+						url: 'https://alexmassenzio.itch.io/mr-puffles-day-out'
+					}
+				},
+				priority: 1
+			},
+			{
+				name: 'RhythmTools',
+				role: 'Sole Developer',
+				description:
+					'A set of simple Unity tools to create rhythm based mechanics and visual effects.',
+				footer: {
+					info: 'Check out the Github repo here: ',
+					link: {
+						title: 'GitHub',
+						url: 'https://github.com/AlexMassenzio/RhythmTools'
+					}
+				},
+				priority: 1
+			}
+		]
+	},
 	{
 		year: 2022,
 		projects: [
+			{
+				name: 'Wordchain',
+				role: 'Sole Developer',
+				media: '/wordchain.png',
+				description:
+					'Connect the Wordchain! A fun webgame inspired from the Wordle and other similar games.',
+				footer: {
+					info: 'Play Wordchain: ',
+					link: {
+						title: 'Play',
+						url: 'https://www.wordcha.in/'
+					}
+				},
+				priority: 0
+			},
 			{
 				name: 'Get That Bread!',
 				role: 'Gameplay Systems / Audio Integrator',
@@ -33,7 +133,8 @@ const projects: ProjectsInYear[] = [
 						title: 'itch.io',
 						url: 'https://itch.io/jam/gmtk-jam-2022/rate/1616588'
 					}
-				}
+				},
+				priority: 1
 			}
 		]
 	},
@@ -53,7 +154,8 @@ const projects: ProjectsInYear[] = [
 						title: 'Steam',
 						url: 'https://store.steampowered.com/app/1118950/Engineer_Arena/'
 					}
-				}
+				},
+				priority: 1
 			},
 			{
 				name: 'BansPage',
@@ -67,7 +169,8 @@ const projects: ProjectsInYear[] = [
 						title: 'bans.page',
 						url: 'https://bans.page/'
 					}
-				}
+				},
+				priority: 1
 			}
 		]
 	},
@@ -86,7 +189,8 @@ const projects: ProjectsInYear[] = [
 						title: 'Growler Exhibit',
 						url: 'https://www.intrepidmuseum.org/growler'
 					}
-				}
+				},
+				priority: 0
 			},
 			{
 				name: 'Welcome to Radiation Valley',
@@ -100,7 +204,8 @@ const projects: ProjectsInYear[] = [
 						title: 'itch.io',
 						url: 'https://har494.itch.io/welcome-to-radiation-valley'
 					}
-				}
+				},
+				priority: -1
 			},
 			{
 				name: 'Altotude',
@@ -113,7 +218,8 @@ const projects: ProjectsInYear[] = [
 						title: 'Altotude',
 						url: 'https://alexmassenzio.itch.io/altotude'
 					}
-				}
+				},
+				priority: -1
 			}
 		]
 	},
@@ -131,7 +237,8 @@ const projects: ProjectsInYear[] = [
 						title: 'itch.io',
 						url: 'https://waveparadigm.itch.io/souloist'
 					}
-				}
+				},
+				priority: -1
 			},
 			{
 				name: 'Unraveling Toxic Behavior in Online  Games',
@@ -144,7 +251,8 @@ const projects: ProjectsInYear[] = [
 						title: 'PDF',
 						url: './ToxicityAlexMassenzio.pdf'
 					}
-				}
+				},
+				priority: -1
 			},
 			{
 				name: 'Kujira',
@@ -158,7 +266,8 @@ const projects: ProjectsInYear[] = [
 						title: 'itch.io',
 						url: 'https://ckuras.itch.io/kujira'
 					}
-				}
+				},
+				priority: -1
 			},
 			{
 				name: 'Kinect Synthesizer',
@@ -172,7 +281,8 @@ const projects: ProjectsInYear[] = [
 						title: 'YouTube',
 						url: 'https://youtu.be/3lVhU3V50gs'
 					}
-				}
+				},
+				priority: 2
 			}
 		]
 	},
@@ -191,7 +301,8 @@ const projects: ProjectsInYear[] = [
 						title: 'YouTube',
 						url: 'https://youtu.be/Pqw1Fj6YOdE'
 					}
-				}
+				},
+				priority: -1
 			},
 			{
 				name: 'Tangent',
@@ -205,7 +316,8 @@ const projects: ProjectsInYear[] = [
 						title: 'Signups',
 						url: './Tangent/index.html'
 					}
-				}
+				},
+				priority: -1
 			},
 			{
 				name: 'RedBot',
@@ -218,7 +330,8 @@ const projects: ProjectsInYear[] = [
 						title: 'Github',
 						url: 'https://github.com/AlexMassenzio/RedBot'
 					}
-				}
+				},
+				priority: -1
 			},
 			{
 				name: 'Pakij',
@@ -232,7 +345,8 @@ const projects: ProjectsInYear[] = [
 						title: 'Pakij',
 						url: 'https://tehpilot.itch.io/pakij'
 					}
-				}
+				},
+				priority: -1
 			},
 			{
 				name: 'Stevens Overwatch League',
@@ -245,7 +359,8 @@ const projects: ProjectsInYear[] = [
 						title: 'Challonge',
 						url: 'http://c2gs.challonge.com/sol2'
 					}
-				}
+				},
+				priority: -1
 			}
 		]
 	},
@@ -263,7 +378,8 @@ const projects: ProjectsInYear[] = [
 						title: 'itch.io',
 						url: 'https://alexmassenzio.itch.io/project-hiway'
 					}
-				}
+				},
+				priority: -1
 			},
 			{
 				name: 'alexmassenzio.com',
@@ -275,7 +391,8 @@ const projects: ProjectsInYear[] = [
 						title: 'Click me!',
 						url: ''
 					}
-				}
+				},
+				priority: 3
 			}
 		]
 	},
@@ -293,10 +410,9 @@ const projects: ProjectsInYear[] = [
 						title: 'GravBall',
 						url: './GravBall.zip'
 					}
-				}
+				},
+				priority: 3
 			}
 		]
 	}
 ];
-
-export default projects;
