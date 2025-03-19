@@ -1,5 +1,4 @@
 export const getManiaxp = async (user: string) => {
-	console.log('started');
 	let fetchedResults: any[] = [];
 
 	let response = new Response();
