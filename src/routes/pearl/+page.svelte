@@ -33,21 +33,21 @@
 	];
 </script>
 
-<h1 class="text-4xl font-bold text-center body-font">Pearl 2024 Cocktails</h1>
+<h1 class="body-font text-center text-4xl font-bold">Pearl 2024 Cocktails</h1>
 
-<div class="mx-4 body-font">
+<div class="body-font mx-4">
 	{#each cocktailList as cocktail}
-		<div class="flex flex-row items-end gap-2 mt-4">
+		<div class="mt-4 flex flex-row items-end gap-2">
 			<h2 class="text-2xl font-semibold underline">{cocktail.name}</h2>
 			<h3 class="text-lg">{cocktail.notes}</h3>
 		</div>
-		<h4 class="mt-2 text-md text-monochrome-900 dark:text-monochrome-200">
+		<h4 class="text-md mt-2 text-monochrome-900 dark:text-monochrome-200">
 			{cocktail.ingredients}
 		</h4>
 	{/each}
 </div>
 
-<p class="mt-4 body-font text-monochrome-800 dark:text-monochrome-300">
+<p class="body-font mt-4 text-monochrome-800 dark:text-monochrome-300">
 	...or feel free to ask for anything else!
 </p>
 
