@@ -27,7 +27,7 @@
 			</tr>
 		</thead>
 		<tbody>
-			{#each data.pizza as pizzaPlace, i}
+			{#each data.pizza as pizzaPlace, i (pizzaPlace.name)}
 				<tr
 					class={(i + 1 == 1 ? 'text-primary-400 dark:text-primary-300' : '') +
 						(pizzaPlace.goto == 'TBD'

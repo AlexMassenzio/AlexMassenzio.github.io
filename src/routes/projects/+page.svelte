@@ -22,7 +22,7 @@
 <main class="p-8">
 	<h1 class="text-center text-4xl">Projects</h1>
 	<div class="flex w-full flex-col items-center gap-6 pt-6">
-		{#each highlightedProjects as project}
+		{#each highlightedProjects as project (project.name)}
 			<ProjectCard {project} />
 		{/each}
 	</div>
