@@ -33,7 +33,7 @@
 	];
 </script>
 
-<h1 class="body-font text-center text-4xl font-bold">Pearl 2024 Cocktails</h1>
+<h1 class="body-font text-center text-4xl font-bold">Pearl 2025 Cocktails</h1>
 
 <div class="body-font mx-4">
 	{#each cocktailList as cocktail (cocktail.name)}
