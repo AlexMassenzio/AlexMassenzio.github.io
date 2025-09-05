@@ -49,7 +49,7 @@ Title: water_wave for AR
 	});
 </script>
 
-<T is={ref} dispose={false} {...props} rotation={[ 0, 0, 0 ]} position={[ 0, 61, -80 ]}>
+<T is={ref} dispose={false} {...props} rotation={[0, 0, 0]} position={[0, 61, -80]}>
 	{#await gltf}
 		{@render fallback?.()}
 	{:then gltf}

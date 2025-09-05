@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import '../app.css';
 	import { dev } from '$app/environment';
 	import { onNavigate } from '$app/navigation';
@@ -6,6 +6,8 @@
 	import { Canvas } from '@threlte/core';
 	import { Studio } from '@threlte/studio';
 	import Scene from '$lib/components/Scene.svelte';
+	import type { AsciiEffectOptions } from 'three/examples/jsm/Addons.js';
+	import { AsciiRenderer } from '@threlte/extras';
 	/** @type {{children?: import('svelte').Snippet}} */
 	let { children } = $props();
 
@@ -21,15 +23,42 @@
 			});
 		});
 	});
+
+	let fgColor = $state('#8158A7'); // softened foreground color
+	let bgColor = $state('#181825'); // softened background color
+	const defaultCharacters = ' .:-+*=%@#';
+	let characters = $state(defaultCharacters);
+	let alpha = $state(true);
+	let block = $state(false);
+	let color = $state(false);
+	let invert = $state(true);
+	let resolution = $state(0.1);
+	let scale = $state(1);
+	const options = $derived<AsciiEffectOptions>({
+		alpha,
+		block,
+		color,
+		invert,
+		resolution,
+		scale
+	});
 </script>
 
 <div class="grid h-dvh w-dvw grid-cols-4">
-	<div class="h-full w-full bg-primary-400">
-		<nav class="mx-auto flex h-full w-fit flex-col justify-center text-start">
-			<a class="text-6xl tracking-wider" href="/">Home</a>
-			<a class="text-6xl tracking-wider" href="/about">About</a>
-			<a class="text-6xl tracking-wider" href="/contact">Contact</a>
-			<a class="text-6xl tracking-wider" href="/blog">Blog</a>
+	<div class="relative col-span-1 h-full w-full">
+		<div class="absolute inset-0 h-full w-full">
+			<Canvas>
+				<AsciiRenderer {bgColor} {characters} {fgColor} {options} />
+				<Scene />
+			</Canvas>
+		</div>
+		<nav
+			class="nav-font relative z-10 mx-auto flex h-full w-fit flex-col justify-center text-start text-error-50"
+		>
+			<a class="py-2 text-6xl tracking-wider" href="/">Home</a>
+			<a class="py-2 text-6xl tracking-wider" href="/projects">Projects</a>
+			<a class="py-2 text-6xl tracking-wider" href="/contact">Contact</a>
+			<a class="py-2 text-6xl tracking-wider" href="/blog">Blog</a>
 		</nav>
 	</div>
 	<main class="relative col-span-3 h-full w-full">
@@ -40,8 +69,15 @@
 				</Studio>
 			</Canvas>
 		</div>
-		<div class="relative -z-10 h-full w-full">
+		<div class="relative z-10 h-dvh w-full overflow-y-auto">
 			{@render children?.()}
 		</div>
 	</main>
 </div>
+
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+	.nav-font {
+		font-family: 'Michroma';
+	}
+</style>

@@ -1,8 +1,6 @@
 <script lang="ts">
-	import Scene from '$lib/components/Scene.svelte';
-	import { Canvas } from '@threlte/core';
 </script>
 
-<div>
-	<p>Hello world!</p>
+<div class="flex h-full w-full flex-col items-center justify-center">
+	<p class="text-3xl text-error-50">Hello world!</p>
 </div>

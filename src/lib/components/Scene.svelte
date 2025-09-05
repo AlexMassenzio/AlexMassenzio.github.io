@@ -4,7 +4,7 @@
 	import Water from './water.svelte';
 	import { Tween } from 'svelte/motion';
 
-	const progress = new Tween(-2, { duration: 8000 });
+	const progress = new Tween(-20, { duration: 8000 });
 	$effect(() => {
 		progress.target = 4;
 	});

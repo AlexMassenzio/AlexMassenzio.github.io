@@ -4,7 +4,7 @@
 		target?: '_self' | '_blank' | '_parent' | '_top';
 		rel?: string;
 		children?: import('svelte').Snippet;
-		[key: string]: any;
+		[key: string]: any; // eslint-disable-line @typescript-eslint/no-explicit-any
 	}
 
 	let {
