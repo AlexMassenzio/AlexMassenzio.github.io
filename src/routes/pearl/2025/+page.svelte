@@ -6,25 +6,24 @@
 	};
 	const cocktailList: Cocktail[] = [
 		{
-			name: 'Mai Tai',
-			notes: '🍍 🏝️ 🍋‍🟩',
-			ingredients: 'Jamaica Rum, Acid Adjusted Pineapple Juice, Orgeat, Triple Sec, Lime.'
-		},
-		{
-			name: 'Caipirinha',
-			notes: '⛱ 🍋 🌊',
-			ingredients: 'Cachaça, Lime, Simple Syrup'
-		},
-		{
 			name: "Planter's Punch",
 			notes: '🌰 🍹',
-			ingredients:
-				'Lots of Jamaica Rum, Allspice Dram, Angostura Bitters, Demerara, Lime. While supplies last!'
+			ingredients: 'Lots of Jamaica Rum, Allspice Dram, Angostura Bitters, Demerara, Lime'
+		},
+		{
+			name: 'New York Sour',
+			notes: '🥃 🍋 🍷',
+			ingredients: 'Bourbon, Lemon, Simple Syrup, topped with red wine'
 		},
 		{
 			name: "Viper's Tea",
 			notes: '🍵 ☁ 🌿',
 			ingredients: 'Yerba Mate Infused Pisco, Egg White, Lemon, Simple Syrup, Ango Bitters'
+		},
+		{
+			name: 'Caipirinha',
+			notes: '⛱ 🍋 🌊',
+			ingredients: 'Cachaça, Lime, Simple Syrup'
 		},
 		{
 			name: 'Paloma',
